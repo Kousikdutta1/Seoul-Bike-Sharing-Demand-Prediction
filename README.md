@@ -14,6 +14,19 @@
    * The most important features which had a major impact on the model predictions were : hour, Temperature, Humidity, Rainfall. Demand for bikes got higher when the temperature and hour values were more. 
 
 # Result :
+![jhedb](https://user-images.githubusercontent.com/106880838/189750939-c9783f13-3ba8-4777-8b48-9557e57ab6ff.PNG)
+
+# Conclusion :
+
+As we can interpret from above, XG Boost has the lowest RMSE, MSE, MAE among all
+and with a R2 score of 0.89 which is highest among all, so we can consider XG Boost
+model as the best model.
+final selection of model totally depends on business point 
+of view, if it is absolutely necessary to have a model with the best accuracy, then XG boost
+will be the best choice. We also know that higher the complexity the lower is the model
+explainability. if the predictions must be explained to stakeholers, then XG Boost is not an
+ideal choice. Hence In this case decision tree can be used, since they are easier to explain.
+By choosing a simpler model we will be compromising with the models accuracy.
 
 
   
