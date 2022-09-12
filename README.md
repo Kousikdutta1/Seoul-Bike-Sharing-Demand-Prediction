@@ -1,6 +1,6 @@
 # Seoul Bike Sharing Demand Prediction
 # Problem Description
-  Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to   the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial     part is the prediction of bike count required at each hour for the stable supply of rental bikes.
+  Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to   the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
   
 # Summary :
    * Step 1 : first exercise involved exploratory data analysis where we tried to dig insights from the data in hand. It included univariate and multivariate            analysis in which we identified certain trends, relationships, correlation and found out the features who had some impact on our dependent variable.
@@ -11,22 +11,20 @@
    
    * Step 4 : Next, we implemented shap techniques to understand the working of our optimum model. 
    
-   * The most important features which had a major impact on the model predictions were : hour, Temperature, Humidity, Rainfall. Demand for bikes got higher when the temperature and hour values were more. 
+   * The most important features which had a major impact on the model predictions were : Hour, Temperature, Humidity, Rainfall. 
 
 # Result :
 ![jhedb](https://user-images.githubusercontent.com/106880838/189750939-c9783f13-3ba8-4777-8b48-9557e57ab6ff.PNG)
 
 # Conclusion :
 
-As we can interpret from above, XG Boost has the lowest RMSE, MSE, MAE among all
-and with a R2 score of 0.89 which is highest among all, so we can consider XG Boost
-model as the best model.
-final selection of model totally depends on business point 
-of view, if it is absolutely necessary to have a model with the best accuracy, then XG boost
-will be the best choice. We also know that higher the complexity the lower is the model
-explainability. if the predictions must be explained to stakeholers, then XG Boost is not an
-ideal choice. Hence In this case decision tree can be used, since they are easier to explain.
-By choosing a simpler model we will be compromising with the models accuracy.
+As we can interpret from above, XG Boost has the lowest RMSE, MSE, MAE among all and with a R2 score of 0.89 on test data which is
+highest among all, so we can consider XG Boost model as the best model.
+Though, final selection of model totally depends on business point  of view, if it is absolutely necessary to have 
+a model with the best accuracy, then XG boost will be the best choice. We also know that higher the complexity the
+lower is the model explainability. if the predictions must be explained to stakeholers, then XG Boost is not an
+ideal choice. Hence In this case decision tree can be used, since they are easier to explain. By choosing a simpler model we will be compromising 
+with the models accuracy.
 
 
   
