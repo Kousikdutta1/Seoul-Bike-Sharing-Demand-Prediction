@@ -2,7 +2,7 @@
 # Problem Description
   Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to   the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial     part is the prediction of bike count required at each hour for the stable supply of rental bikes.
 # Summary :
- **  The first step in the exercise involved exploratory data analysis where we tried to dig insights from thedata in hand. It included univariate and multivariate            analysis in which we identified certain trends, relationships, correlation and found out the features who had some impact on our dependent variable.
+  *The first step in the exercise involved exploratory data analysis where we tried to dig insights from thedata in hand. It included univariate and multivariate            analysis in which we identified certain trends, relationships, correlation and found out the features who had some impact on our dependent variable.
   
    The second step was to clean the data and perform modifications. We checked for missing values and outliers and removed irrelevant features. We also encoded the          categorical variables.
    
