@@ -11,5 +11,9 @@
    
    * Step 4 : Next, we implemented shap techniques to understand the working of our optimum model. 
    
-   * The most important features who had a major impact on the model predictions were : hour, Temperature, Humidity, Rainfall. Demand for bikes got higher when the temperature and hour values were more. 
+   * The most important features which had a major impact on the model predictions were : hour, Temperature, Humidity, Rainfall. Demand for bikes got higher when the temperature and hour values were more. 
+
+# Result :
+
+
   
